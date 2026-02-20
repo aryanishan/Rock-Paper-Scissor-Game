@@ -1,5 +1,4 @@
 # Rock Paper Scissors Game
-
 ![Game Preview](images/image.png)
 
 ## Overview
