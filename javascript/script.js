@@ -13,7 +13,7 @@ let isAutoPlaying = false;
 let intervalId;
 function autoPlay() {
     if (!isAutoPlaying) {
-        intervalId = setInterval(function () {
+        intervalId = setInterval(() => {
             const youPick = pickComputerMove();
             resultShown(youPick);
         }, 1000);
